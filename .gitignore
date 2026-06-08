@@ -1,0 +1,39 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+# Package.resolved is committed to lock the GRDB version.
+
+# Packaged app bundle (produced by scripts/package.sh)
+ClipboardManager.app/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode (if ever opened)
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+xcschemes/
+*.xcscmblueprint
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.p12
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Test / debug artifacts
+*.log
+coverage/
