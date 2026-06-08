@@ -80,8 +80,8 @@ final class ConvertAndSimilarityTests: XCTestCase {
     // MARK: IntentRecognizer
 
     func testIntentRecognizerFindsEmailAndURL() {
-        let suggestions = IntentRecognizer.analyze("Contact me at john@example.com or visit https://github.com/foo")
-        XCTAssertTrue(suggestions.contains { $0.kind == .email && $0.value.contains("john@example.com") })
+        let suggestions = IntentRecognizer.analyze("Contact me at user@example.com or visit https://github.com/foo")
+        XCTAssertTrue(suggestions.contains { $0.kind == .email && $0.value.contains("user@example.com") })
         XCTAssertTrue(suggestions.contains { $0.kind == .openGitHub })
     }
 }

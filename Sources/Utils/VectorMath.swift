@@ -2,8 +2,7 @@ import Foundation
 
 /// Helpers for (de)serializing embedding vectors and computing similarity.
 ///
-/// Embeddings are persisted as the UTF-8 bytes of a JSON array of doubles,
-/// matching the SPEC note: "向量嵌入（JSON数组的二进制）".
+/// Embeddings are persisted as the UTF-8 bytes of a JSON array of doubles.
 enum VectorMath {
 
     static func encode(_ vector: [Double]) -> Data {

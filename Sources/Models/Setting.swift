@@ -14,7 +14,7 @@ struct Setting: Codable, FetchableRecord, PersistableRecord, Equatable {
     }
 }
 
-/// Canonical list of setting keys and their defaults (see SPEC.md table).
+/// Canonical list of setting keys and their defaults.
 enum SettingKey: String, CaseIterable {
     case maxItems
     case cacheDays
@@ -48,7 +48,7 @@ enum SettingKey: String, CaseIterable {
         case .launchAtLogin: return "false"
         case .aiProvider: return "none"
         case .aiEndpoint: return "http://localhost:8080"
-        case .aiModel: return "qwen3-0.6b-embedding"
+        case .aiModel: return "text-embedding-3-small"
         case .aiApiKey: return ""
         case .enableSemanticSearch: return "false"
         case .enableSmartCategory: return "false"
