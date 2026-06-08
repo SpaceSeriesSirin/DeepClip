@@ -1,14 +1,14 @@
 #!/bin/bash
 #
-# Builds ClipboardManager in release mode and assembles a runnable .app bundle
-# (SPEC Phase 7). Produces ./ClipboardManager.app in the project root.
+# Builds DeepClip in release mode and assembles a runnable .app bundle
+# (SPEC Phase 7). Produces ./DeepClip.app in the project root.
 #
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
 ROOT="$(pwd)"
-APP="ClipboardManager.app"
-APP_NAME="ClipboardManager"
+APP="DeepClip.app"
+APP_NAME="DeepClip"
 
 echo "==> Building release binary (arm64)…"
 swift build -c release --arch arm64

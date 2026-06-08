@@ -19,7 +19,7 @@ final class AppDatabase {
             appropriateFor: nil,
             create: true
         )
-        let dir = base.appendingPathComponent("ClipboardManager", isDirectory: true)
+        let dir = base.appendingPathComponent("DeepClip", isDirectory: true)
         if !fm.fileExists(atPath: dir.path) {
             try fm.createDirectory(at: dir, withIntermediateDirectories: true)
         }

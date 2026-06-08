@@ -1,6 +1,6 @@
-# Clipboard Manager
+# DeepClip
 
-A lightweight, privacy-first clipboard manager for macOS built with SwiftUI and Swift Package Manager. Lives in your menu bar, stays out of your way.
+A smart clipboard manager for macOS that goes beyond simple copy-paste. Built with SwiftUI and Swift Package Manager, DeepClip understands your clipboard content with optional AI-powered intelligence. Lives in your menu bar, stays out of your way.
 
 ## Features
 
@@ -32,8 +32,8 @@ A lightweight, privacy-first clipboard manager for macOS built with SwiftUI and 
 ## Build
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ClipboardManager.git
-cd ClipboardManager
+git clone https://github.com/SpaceSeriesSirin/DeepClip.git
+cd DeepClip
 swift build
 swift run
 ```
@@ -42,7 +42,7 @@ swift run
 
 ```bash
 ./scripts/package.sh
-open ClipboardManager.app
+open DeepClip.app
 ```
 
 This builds a release binary, assembles a `.app` bundle with an auto-generated icon, and ad-hoc signs it.
@@ -50,7 +50,7 @@ This builds a release binary, assembles a `.app` bundle with an auto-generated i
 ## Project Structure
 
 ```
-ClipboardManager/
+DeepClip/
 ├── Package.swift
 ├── Sources/
 │   ├── App/           # @main entry, AppDelegate, menu bar
@@ -67,7 +67,7 @@ ClipboardManager/
 
 ## Configuration
 
-All settings are stored in a local SQLite database at `~/Library/Application Support/ClipboardManager/`. No cloud sync, no telemetry.
+All settings are stored in a local SQLite database at `~/Library/Application Support/DeepClip/`. No cloud sync, no telemetry.
 
 AI features are **off by default**. Enable them in Settings → AI and point to your preferred backend:
 

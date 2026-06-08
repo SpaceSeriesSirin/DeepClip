@@ -2,28 +2,28 @@
 import PackageDescription
 
 let package = Package(
-    name: "ClipboardManager",
+    name: "DeepClip",
     platforms: [
         .macOS(.v13)
     ],
     products: [
-        .executable(name: "ClipboardManager", targets: ["ClipboardManager"])
+        .executable(name: "DeepClip", targets: ["DeepClip"])
     ],
     dependencies: [
         .package(url: "https://github.com/groue/GRDB.swift.git", from: "6.0.0")
     ],
     targets: [
         .executableTarget(
-            name: "ClipboardManager",
+            name: "DeepClip",
             dependencies: [
                 .product(name: "GRDB", package: "GRDB.swift")
             ],
             path: "Sources"
         ),
         .testTarget(
-            name: "ClipboardManagerTests",
-            dependencies: ["ClipboardManager"],
-            path: "Tests/ClipboardManagerTests"
+            name: "DeepClipTests",
+            dependencies: ["DeepClip"],
+            path: "Tests/DeepClipTests"
         )
     ]
 )

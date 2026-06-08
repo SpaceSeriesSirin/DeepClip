@@ -179,7 +179,7 @@ final class AppState: ObservableObject {
         HotkeyService.shared.update(to: hotkey)
     }
 
-    /// Brings the ClipboardManager UI to the front from any app. Remembers the
+    /// Brings the DeepClip UI to the front from any app. Remembers the
     /// previously-frontmost app so focus can later be restored.
     func summon() {
         previousFrontmostApp = NSWorkspace.shared.frontmostApplication

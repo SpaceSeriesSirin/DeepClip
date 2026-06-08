@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>ClipboardManager</string>
+    <string>DeepClip</string>
     <key>CFBundleDisplayName</key>
-    <string>Clipboard Manager</string>
+    <string>DeepClip</string>
     <key>CFBundleIdentifier</key>
-    <string>com.clipboardmanager.app</string>
+    <string>com.deepclip.app</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>CFBundleShortVersionString</key>
@@ -15,7 +15,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleExecutable</key>
-    <string>ClipboardManager</string>
+    <string>DeepClip</string>
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
     <key>CFBundleIconName</key>
@@ -30,7 +30,7 @@
     <key>NSHighResolutionCapable</key>
     <true/>
     <key>NSHumanReadableCopyright</key>
-    <string>Clipboard Manager</string>
+    <string>DeepClip</string>
     <key>NSSupportsAutomaticTermination</key>
     <false/>
     <key>NSSupportsSuddenTermination</key>

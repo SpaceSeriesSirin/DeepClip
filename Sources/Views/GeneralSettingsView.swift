@@ -160,7 +160,7 @@ struct GeneralSettingsView: View {
                 }
                 .disabled(!settings.enableHotkey)
 
-                Text("Press this shortcut from any app to bring Clipboard Manager to the front. Requires at least one modifier (⌘, ⌥, ⌃, ⇧).")
+                Text("Press this shortcut from any app to bring DeepClip to the front. Requires at least one modifier (⌘, ⌥, ⌃, ⇧).")
                     .font(.caption).foregroundStyle(.secondary)
             }
 

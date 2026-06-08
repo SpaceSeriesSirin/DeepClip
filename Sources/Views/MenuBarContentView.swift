@@ -44,7 +44,7 @@ struct MenuBarContentView: View {
         HStack {
             Image(systemName: appState.isMonitoringPaused ? "pause.circle.fill" : "doc.on.clipboard")
                 .foregroundStyle(appState.isMonitoringPaused ? Color.orange : Color.primary)
-            Text("Clipboard Manager").font(.headline)
+            Text("DeepClip").font(.headline)
             Spacer()
             Button {
                 appState.togglePause()
